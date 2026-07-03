@@ -9,7 +9,7 @@
       "credentialId": "AWS-CLF-001",
       "pdfUrl": "/CERTIS/CLOUD (2).pdf",
       "badgeImage": "/images/aws-academy-graduate-cloud-foundations-training-bad.png",
-      "skills": ["AWS", "Cloud Architecture", "EC2", "S3"]
+      "skills": ["AWS", "Cloud Architecture", "EC2", "S3", "IAM"]
     },
     {
       "id": 2,

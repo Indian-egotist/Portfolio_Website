@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -21,7 +20,7 @@
           <nav class="hidden md:flex items-center gap-6 text-sm font-medium" aria-label="Primary">
             <a class="nav-link" href="#about">About</a>
             <a class="nav-link" href="#projects">Projects</a>
-            <a class="nav-link" href="/certificates">Certificates</a>
+            <a class="nav-link" href="#certificates">Certificates</a>
             <a class="nav-link" href="#contact">Contact</a>
           </nav>
           <button
@@ -131,17 +130,19 @@
               </p>
             </div>
             <div class="surface-card">
-              <h3 class="text-lg font-semibold">Vercel Delivery</h3>
+              <h3 class="text-lg font-semibold">Automated CI/CD Pipeline</h3>
               <p class="text-muted mt-3">
-                Shipping fast deployments with Vercel pipelines, observability,
-                and automated rollbacks.
+                Shipping real-time deployments with automated CI/CD pipeline 
+                using tools like GitHub actions and Jenkins.
               </p>
             </div>
             <div class="surface-card">
-              <h3 class="text-lg font-semibold">Hostinger Operations</h3>
+              <h3 class="text-lg font-semibold">Hands-on Experience</h3>
               <p class="text-muted mt-3">
-                Managing hosting, DNS, SSL, and renewals so sites stay fast,
-                secure, and always online.
+                I have completed AWS Foundational and Solution Architect academy with 
+                deployment of two websites during my internship using docker-compose and DNS routing.
+                <p link = "https://www.zarklyx.duckdns.org"> ZarklyX Signup page</p>
+                <p link = "https://www.justyummybackery.tech"> Dummy bakery website</p>
               </p>
             </div>
           </div>
@@ -149,7 +150,7 @@
 
         <section id="projects" class="section-spacing">
           <div class="section-header">
-            <h2 class="text-2xl font-semibold">Recent Work</h2>
+            <h2 class="text-2xl font-semibold">Projects</h2>
             <p class="text-muted mt-2">
               A snapshot of infrastructure and deployment initiatives delivering
               reliable cloud operations.
@@ -157,17 +158,18 @@
           </div>
           <div class="mt-8 grid gap-6 lg:grid-cols-2">
             <article class="surface-card">
-              <h3 class="text-lg font-semibold">Cloud Migration Blueprint</h3>
+              <h3 class="text-lg font-semibold">Portfolio Website</h3>
               <p class="text-muted mt-3">
-                Planned a phased AWS migration with VPC segmentation, IAM
-                hardening, and cost tracking dashboards.
+                Deployed Live Portfolio Website using AWS S3 bucket services.
+                <p link="https://www.portfolio-website-eta-three-90.vercel.app">Portfolio website</p>
               </p>
             </article>
             <article class="surface-card">
-              <h3 class="text-lg font-semibold">Deployment Automation Suite</h3>
+              <h3 class="text-lg font-semibold">Multi-Cloud Deployment</h3>
               <p class="text-muted mt-3">
-                Built GitHub Actions workflows to automate container builds,
-                blue/green releases, and post-deploy validations.
+                Deployed Website using multi-cloud architecture, frontend files deployed on AWS S3 buckets
+                backend filed deployed on Azure Virtual Machine which is placed in an private VNet for security purpose.
+                <p link="https://www.google.com">*Upcoming Project*</p> 
               </p>
             </article>
           </div>
@@ -177,13 +179,13 @@
       <section id="certificates" class="certificate-section">
           <div class="mx-auto max-w-6xl px-6 lg:px-12">
             <div class="flex flex-wrap items-center justify-between gap-4">
-              <a href="/certificates">
+              <a href="#certificates">
                 <h2 class="text-2xl font-semibold hover:text-blue-500 transition-colors">Certificates</h2>
               </a>
-              <span class="text-sm text-muted">AWS · Edunet · GenAI · SAP</span>
+              <span class="text-sm text-muted">AWS · GenAI · SAP</span>
             </div>
             <p class="text-muted mt-2 text-center">
-              Professional certifications demonstrating expertise across cloud computing, AI/GenAI, and enterprise development.
+              Professional certifications demonstrating knowledge across cloud computing, GenAI, and enterprise development.
             </p>
           </div>
       
@@ -210,6 +212,11 @@
                 class="certificate-item"
                 src="/images/sap-certified-back-end-developer-abap-cloud.png"
                 alt="SAP Certified Backend Developer - ABAP Cloud"
+              />
+              <img
+                class="certificate-item"
+                src="/images/sap-cap.png"
+                alt="SAP Cloud Application Programmer"
               />
               <img
                 class="certificate-item"
@@ -245,6 +252,11 @@
               />
               <img
                 class="certificate-item"
+                src="/images/sap-cap.png"
+                alt="SAP Cloud Application Programming"
+              />
+              <img
+                class="certificate-item"
                 src="/images/mckinsey-org-forward-program.png"
                 alt="McKinsey.org Forward Program"
               />
@@ -262,7 +274,7 @@
         <div class="surface-card contact-card">
           <div class="contact-grid">
             <div class="contact-content">
-              <h2 class="text-2xl font-semibold">Let’s build your cloud roadmap</h2>
+              <h2 class="text-2xl font-semibold">Aspiring Cloud Engineer</h2>
               <p class="text-muted mt-2">
                 Reach out for cloud architecture, automation, and deployment support. Pick the channel that works best for you.
               </p>
@@ -334,7 +346,7 @@
 
     <script src="/script.js"></script>
     <script>
-      window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+      window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments) };
     </script>
     <script defer src="/_vercel/insights/script.js"></script>
   </body>
