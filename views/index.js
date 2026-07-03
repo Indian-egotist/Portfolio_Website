@@ -141,8 +141,8 @@
               <p class="text-muted mt-3">
                 I have completed AWS Foundational and Solution Architect academy with 
                 deployment of two websites during my internship using docker-compose and DNS routing.
-                <a href = "https://www.zarklyx.duckdns.org"> ZarklyX Signup page</a>
-                <a href = "https://www.justyummybackery.tech"> Freelancing Project</a>
+                <p><a href = "https://www.zarklyx.duckdns.org"> ZarklyX Signup page</a></p>
+                <p><a href = "https://www.justyummybackery.tech"> Freelancing Project</a></p>
               </p>
             </div>
           </div>
@@ -160,7 +160,7 @@
             <article class="surface-card">
               <h3 class="text-lg font-semibold">Portfolio Website</h3>
               <p class="text-muted mt-3">
-                Deployed Live Portfolio Website using AWS S3 bucket services.
+                Deployed Live Portfolio Website using AWS S3 bucket services.<br></br>
                 <a href="https://www.portfolio-website-eta-three-90.vercel.app">Portfolio website</a>
               </p>
             </article>
